@@ -1,9 +1,9 @@
 today = input("What day?")
-condition = input("How's the condition?")
 
 if today == "Saturday":
     print("Party!")
 elif today == "Sunday":
+    condition = input("How's the condition?")
     if condition == "Headache":
         print("Recover, then rest.")
     else:
