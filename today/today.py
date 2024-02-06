@@ -1,5 +1,5 @@
-today = 'Sunday'
-condition = "stomach"
+today = input("What day?")
+condition = input("How's the condition?")
 
 if today == "Saturday":
     print("Party!")
