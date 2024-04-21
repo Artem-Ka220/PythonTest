@@ -1,0 +1,5 @@
+name = input("Как вас зовут? ")
+age = int(input("Укажите ваш возраст: "))
+height = float(input("Укажите ваш рост: "))
+weight = float(input("Укажите ваш вес: "))
+print(f"Привет, {name}, с возрастом {age} лет, и индексом тела {weight / (height ** 2)}.")
