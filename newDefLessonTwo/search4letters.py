@@ -1,5 +1,5 @@
 def search4letters(phrase:str,anyStr:str = 'aeiou') -> set:
-    """Возвращает гласные из заданного списка, найденные в указанном слову"""
+    """Возвращает гласные из заданного списка, найденные в указанном слове."""
     return set(anyStr).intersection(set(phrase))
 
  
@@ -8,4 +8,4 @@ yourSet = input("Введите ваш список для поиска совп
 
 print(search4letters(yourPhrase, yourSet))
 
-print(search4letters('yourPhrase'))
+print(search4letters(anyStr = 'ai', phrase = 'yourPhrase'))
