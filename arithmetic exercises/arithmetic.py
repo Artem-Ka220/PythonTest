@@ -19,9 +19,20 @@
 # print('The next number for the number %d is %d.' % (num, (num + 1)))
 # print('The previous number for the number %d is %d.' % (num, num - 1))
 
+#a = int(input())
+#b = int(input())
+#f = int(input())
+#N = int(input())
+#N = N - 1
+#print((a * 2 * N) + (2 * b * N) + (f * 2) + a)
+
 a = int(input())
 b = int(input())
-f = int(input())
-N = int(input())
-N = N - 1
-print((a * 2 * N) + (2 * b * N) + (f * 2) + a)
+c = int(input())
+
+if a == b == c:
+    print(3)
+elif a == b or a == c or b == c:
+    print(2)
+else:
+    print(0)
